@@ -7,6 +7,7 @@ import TechStack from "./section/TechStack";
 import { HowIWork } from "./section/HowIWork";
 import { Navbar } from "./section/Navbar";
 import { Footer } from "./section/Footer";
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Analytics />
     </>
   );
 }
