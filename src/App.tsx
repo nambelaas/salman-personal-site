@@ -8,8 +8,6 @@ import { HowIWork } from "./section/HowIWork";
 import { Navbar } from "./section/Navbar";
 import { Footer } from "./section/Footer";
 
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
 function App() {
   return (
     <>
@@ -29,7 +27,6 @@ function App() {
           </div>
         </div>
       </div>
-      <SpeedInsights />
     </>
   );
 }
